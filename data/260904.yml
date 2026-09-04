@@ -7,7 +7,7 @@ about:
   head: 738d2be
   archived: false
   latestVersion: 0.15.1
-  collectedAt: 2026-09-04T19:54:34Z
+  collectedAt: 2026-09-04T20:46:54Z
 timeline:
   created: 2015-08-06
   lastCommit: 2025-11-27
@@ -92,6 +92,124 @@ total:
   openIssue: 2708
   commit: 36058
 ---
+path: /home/runner/.x-repo/github.com/ziglang/zig
+collectedAt: 2026-09-04T20:47:29Z
+loc:
+  CHeader:
+    code: 2458671
+    comments: 503309
+    blanks: 397394
+    files: 11492
+  Zig:
+    code: 1174701
+    comments: 88905
+    blanks: 93873
+    files: 2950
+  ModuleDef:
+    code: 148096
+    comments: 22337
+    blanks: 1625
+    files: 2653
+  C:
+    code: 102953
+    comments: 20889
+    blanks: 13224
+    files: 2322
+  Cpp:
+    code: 55468
+    comments: 8701
+    blanks: 7972
+    files: 209
+  Bitbake:
+    code: 21331
+    comments: 923
+    blanks: 853
+    files: 25
+  Autoconf:
+    code: 20603
+    comments: 462
+    blanks: 789
+    files: 34
+  AssemblyGAS:
+    code: 17494
+    comments: 3207
+    blanks: 1379
+    files: 337
+  CppHeader:
+    code: 12039
+    comments: 1036
+    blanks: 1397
+    files: 25
+  Alex:
+    code: 4939
+    comments: 0
+    blanks: 651
+    files: 23
+  CMake:
+    code: 1341
+    comments: 78
+    blanks: 133
+    files: 5
+  JavaScript:
+    code: 1206
+    comments: 23
+    blanks: 150
+    files: 2
+  Python:
+    code: 1187
+    comments: 34
+    blanks: 158
+    files: 5
+  Sh:
+    code: 695
+    comments: 130
+    blanks: 186
+    files: 16
+  Css:
+    code: 280
+    comments: 0
+    blanks: 3
+    files: 2
+  PowerShell:
+    code: 247
+    comments: 19
+    blanks: 40
+    files: 3
+  Html:
+    code: 188
+    comments: 4
+    blanks: 15
+    files: 2
+  ObjectiveC:
+    code: 24
+    comments: 0
+    blanks: 10
+    files: 1
+  Json:
+    code: 12
+    comments: 0
+    blanks: 0
+    files: 2
+  Ini:
+    code: 3
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 196
+    blanks: 92
+    files: 6
+  Text:
+    code: 0
+    comments: 3444
+    blanks: 1587
+    files: 9
+total:
+  code: 4021919
+  comments: 653713
+  blanks: 521544
+  files: 20124
 ---
 date: "2026-08-24"
 repo:
