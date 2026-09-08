@@ -5,13 +5,13 @@ about:
   head: 738d2be
   archived: false
   latestVersion: "0.15.1"
-  collectedAt: 2026-09-08T01:50:23Z
+  collectedAt: 2026-09-08T04:35:03Z
 timeline:
   created: 2015-08-06
   lastCommit: 2025-11-27
   lastRelease: 2025-08-29
 popularity:
-  star: 43321
+  star: 43322
   watcher: 435
   fork: 3227
   release: 21
@@ -91,7 +91,7 @@ total:
   commit: 36058
 ---
 path: /home/runner/.x-repo/github.com/ziglang/zig
-collectedAt: 2026-09-08T01:51:45Z
+collectedAt: 2026-09-08T04:36:27Z
 loc:
   CHeader:
     code: 2458671
