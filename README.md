@@ -7,7 +7,7 @@ Moved to Codeberg
 - **Latest release**: `0.15.1` (2025-08-29)
 - **Last commit**: 2025-11-27
 - **License**: MIT
-- **Stars**: 43317 · **Forks**: 3218 · **Open issues**: 13522 · **Contributors**: 1093
+- **Stars**: 43308 · **Forks**: 3209 · **Open issues**: 13522 · **Contributors**: 1092
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/zig> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:33:06Z._
+_Last regenerated: 2026-09-09T18:58:22Z._
