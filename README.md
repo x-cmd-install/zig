@@ -80,7 +80,7 @@ Reported by **209** distros on [repology.org](https://repology.org/project/zig).
 |--------|---------|--------|
 | Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
 | Arch | `0.16.0` | ✅ latest |
-| Homebrew | `0.16.0` | ✅ latest |
+| Homebrew | `0.15.2` | 🪦 legacy |
 | Fedora rawhide | `0.16.0` | ✅ latest |
 | Nix unstable | `0.16.0` | ✅ latest |
 | Void | `0.13.0` | ⚠️ outdated |
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:13:22Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:32:39Z._
