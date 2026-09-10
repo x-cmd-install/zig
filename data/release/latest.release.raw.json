@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 52711548,
       "digest": "sha256:4c0cfbcf12da144955761ca43f89e3c74956bce978694fc1d0a63555f5c0a199",
-      "download_count": 6574,
+      "download_count": 6594,
       "created_at": "2025-08-29T18:36:03Z",
       "updated_at": "2025-08-29T18:36:06Z",
       "browser_download_url": "https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz"
