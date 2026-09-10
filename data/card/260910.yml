@@ -7,7 +7,7 @@ about:
   latestVersion: "0.15.1"
   latestRelease: "0.15.1"
   latestPrerelease: "0.10.1"
-  collectedAt: 2026-09-10T20:11:24Z
+  collectedAt: 2026-09-10T23:30:47Z
 timeline:
   created: 2015-08-06
   lastCommit: 2025-11-27
@@ -95,7 +95,7 @@ total:
   commit: 36058
 ---
 path: /home/runner/.x-repo/github.com/ziglang/zig
-collectedAt: 2026-09-10T20:13:02Z
+collectedAt: 2026-09-10T23:32:16Z
 loc:
   CHeader:
     code: 2458671
