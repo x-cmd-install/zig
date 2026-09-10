@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 52711548,
       "digest": "sha256:4c0cfbcf12da144955761ca43f89e3c74956bce978694fc1d0a63555f5c0a199",
-      "download_count": 6481,
+      "download_count": 6574,
       "created_at": "2025-08-29T18:36:03Z",
       "updated_at": "2025-08-29T18:36:06Z",
       "browser_download_url": "https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 322,
       "digest": "sha256:b2a75a435945ba0896c94e223285f368300ef1d8b738c2dcc233eb01d7c66762",
-      "download_count": 127,
+      "download_count": 129,
       "created_at": "2025-08-29T18:36:09Z",
       "updated_at": "2025-08-29T18:36:10Z",
       "browser_download_url": "https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz.minisig"
