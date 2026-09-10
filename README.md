@@ -23,11 +23,17 @@ x install zig
 - **Latest**: `0.15.1` (2025-08-29)
 - **Last commit**: 2025-11-27
 - **Assets in release**: 2
-- **Published**: 2025-08-29T18:36:18Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [zig-bootstrap-0.15.1.tar.xz](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz) | 50.3 MiB | `other` |
+| [zig-bootstrap-0.15.1.tar.xz.minisig](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz.minisig) | 322 B | `other` |
 
 ## Popularity
 
-- **Stars**: 43,308 · **Forks**: 3,208 · **Open issues**: 13,522 · **Contributors**: 1,092
+- **Stars**: 43,307 · **Forks**: 3,208 · **Open issues**: 13,522 · **Contributors**: 1,092
 
 ## Totals (cumulative)
 
@@ -68,8 +74,8 @@ Lowest-scoring checks:
 Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zig` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/zig.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/zig.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:33:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:19:52Z._

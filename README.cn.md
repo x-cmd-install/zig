@@ -4,7 +4,7 @@
 
 Moved to Codeberg
 
-![zig](https://repo.x-cmd.io/zig.svg)
+![zig](https://repo.x-cmd.io/zig.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,17 @@ x install zig
 - **最新版本**: `0.15.1` (2025-08-29)
 - **最近提交**: 2025-11-27
 - **Release 含资产**: 2 个
-- **发布时间**: 2025-08-29T18:36:18Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [zig-bootstrap-0.15.1.tar.xz](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz) | 50.3 MiB | `other` |
+| [zig-bootstrap-0.15.1.tar.xz.minisig](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz.minisig) | 322 B | `other` |
 
 ## 流行度
 
-- **Star**: 43,308 · **Fork**: 3,208 · **开放 issue**: 13,522 · **贡献者**: 1,092
+- **Star**: 43,307 · **Fork**: 3,208 · **开放 issue**: 13,522 · **贡献者**: 1,092
 
 ## 累计统计
 
@@ -72,4 +78,4 @@ zig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:33:51Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:19:53Z._
