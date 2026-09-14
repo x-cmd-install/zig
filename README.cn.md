@@ -48,22 +48,22 @@ x install zig
 
 ## 流行度
 
-- **Star**: 43,307 · **Fork**: 3,207 · **开放 issue**: 13,522 · **贡献者**: 1,092
+- **Star**: 43,310 · **Fork**: 3,208 · **开放 issue**: 13,522 · **贡献者**: 1,092
 
 ## 累计统计
 
-- **发布数**: 21 · **已合并 PR**: 9540 · **开放 PR**: 117 · **已关闭 issue**: 10814 · **开放 issue**: 2708 · **提交数**: 36058
+- **发布数**: 21 · **已合并 PR**: 9540 · **开放 PR**: 117 · **已关闭 issue**: 10816 · **开放 issue**: 2706 · **提交数**: 36058
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 360d | 2025-09-18 | 0 | 230 | 28 | 271 | 130 | 922 |
-| last720d | 2024-09-23 | 3 | 1512 | 102 | 1535 | 806 | 4945 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 360d | 2025-09-19 | 0 | 226 | 27 | 267 | 124 | 922 |
+| last720d | 2024-09-24 | 3 | 1508 | 102 | 1534 | 804 | 4936 |
 
 ## Release 资产
 
@@ -71,21 +71,6 @@ x install zig
 |------|-----:|----------|
 | [zig-bootstrap-0.15.1.tar.xz](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz) | 50.3 MiB | `other` |
 | [zig-bootstrap-0.15.1.tar.xz.minisig](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz.minisig) | 322 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/zig) 上共有 **209** 个发行版报告此项目。**47** 个 ✅ 已是最新上游版本，**63** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
-| Arch | `0.16.0` | ✅ latest |
-| Homebrew | `0.16.0` | ✅ latest |
-| Fedora rawhide | `0.16.0` | ✅ latest |
-| Nix unstable | `0.16.0` | ✅ latest |
-| Void | `0.13.0` | ⚠️ outdated |
-| Alpine edge | `0.16.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.15.2` | 🪦 legacy |
 
 ## 改进这些数据
 
@@ -96,4 +81,4 @@ zig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T04:48:47Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T04:50:20Z._
