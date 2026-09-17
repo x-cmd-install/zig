@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,304 · **Forks**: 3,203 · **Open issues**: 13,521 · **Contributors**: 1,092
+- **Stars**: 43,307 · **Forks**: 3,205 · **Open issues**: 13,521 · **Contributors**: 1,091
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-20 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 360d | 2025-09-21 | 0 | 220 | 26 | 255 | 119 | 922 |
-| last720d | 2024-09-26 | 3 | 1499 | 102 | 1530 | 798 | 4906 |
+| 30d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-21 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 360d | 2025-09-22 | 0 | 217 | 26 | 253 | 118 | 922 |
+| last720d | 2024-09-27 | 3 | 1497 | 102 | 1526 | 797 | 4885 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T04:50:20Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T04:56:10Z._
