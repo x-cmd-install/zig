@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,303 · **Forks**: 3,204 · **Open issues**: 13,521 · **Contributors**: 1,091
+- **Stars**: 43,301 · **Forks**: 3,203 · **Open issues**: 13,521 · **Contributors**: 1,091
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 88 · **Closed issues**: 10815 · **Open issues**: 2706 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 88 · **Closed issues**: 10816 · **Open issues**: 2705 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-24 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 360d | 2025-09-25 | 0 | 208 | 22 | 244 | 113 | 812 |
-| last720d | 2024-09-30 | 3 | 1492 | 77 | 1516 | 794 | 4873 |
+| 30d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-25 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 360d | 2025-09-26 | 0 | 206 | 22 | 241 | 112 | 812 |
+| last720d | 2024-10-01 | 3 | 1491 | 77 | 1515 | 793 | 4873 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T04:53:30Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T04:49:46Z._
