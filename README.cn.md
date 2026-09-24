@@ -30,9 +30,9 @@ x install zig
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 10/24 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (4/10) — Found 10/24 approved changesets -- score normalized to 4
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install zig
 
 ## 流行度
 
-- **Star**: 43,300 · **Fork**: 3,203 · **开放 issue**: 13,521 · **贡献者**: 1,091
+- **Star**: 43,303 · **Fork**: 3,201 · **开放 issue**: 13,521 · **贡献者**: 1,091
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install zig
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-27 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 360d | 2025-09-28 | 0 | 202 | 22 | 233 | 108 | 812 |
-| last720d | 2024-10-03 | 3 | 1479 | 77 | 1511 | 790 | 4857 |
+| 30d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-28 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 360d | 2025-09-29 | 0 | 201 | 21 | 232 | 107 | 812 |
+| last720d | 2024-10-04 | 3 | 1474 | 77 | 1508 | 788 | 4823 |
 
 ## Release 资产
 
@@ -81,4 +81,4 @@ zig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260923.yml` · 2026-09-23T04:46:26Z._
+_数据快照: `data/card/260924.yml` · 2026-09-24T04:38:23Z._
