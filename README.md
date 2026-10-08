@@ -30,9 +30,9 @@ Overall score: **5.2 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (4/10) — Found 10/24 approved changesets -- score normalized to 4
-- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,306 · **Forks**: 3,188 · **Open issues**: 13,521 · **Contributors**: 1,091
+- **Stars**: 43,304 · **Forks**: 3,187 · **Open issues**: 13,521 · **Contributors**: 1,091
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 80 · **Closed issues**: 10829 · **Open issues**: 2692 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 80 · **Closed issues**: 10830 · **Open issues**: 2691 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-10 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 360d | 2025-10-12 | 0 | 147 | 18 | 174 | 82 | 596 |
-| last720d | 2024-10-17 | 3 | 1412 | 70 | 1466 | 766 | 4639 |
+| 30d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-13 | 0 | 144 | 17 | 174 | 81 | 596 |
+| last720d | 2024-10-18 | 3 | 1411 | 70 | 1462 | 764 | 4633 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:49:36Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T05:58:15Z._
