@@ -31,8 +31,8 @@ Overall score: **5.2 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (4/10) — Found 10/24 approved changesets -- score normalized to 4
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,292 · **Forks**: 3,185 · **Open issues**: 13,521 · **Contributors**: 1,091
+- **Stars**: 43,284 · **Forks**: 3,184 · **Open issues**: 13,521 · **Contributors**: 1,091
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 78 · **Closed issues**: 10835 · **Open issues**: 2686 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 78 · **Closed issues**: 10838 · **Open issues**: 2683 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-19 | 0 | 113 | 13 | 150 | 75 | 425 |
-| last720d | 2024-10-24 | 3 | 1399 | 68 | 1448 | 752 | 4544 |
+| 30d | 2026-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-20 | 0 | 110 | 12 | 149 | 75 | 425 |
+| last720d | 2024-10-25 | 3 | 1396 | 68 | 1439 | 750 | 4539 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T04:47:47Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:31:35Z._
