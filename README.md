@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,275 · **Forks**: 3,132 · **Open issues**: 13,521 · **Contributors**: 1,091
+- **Stars**: 43,273 · **Forks**: 3,125 · **Open issues**: 13,515 · **Contributors**: 1,090
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9540 · **Open PRs**: 78 · **Closed issues**: 10844 · **Open issues**: 2677 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 69 · **Closed issues**: 10843 · **Open issues**: 2672 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-27 | 0 | 94 | 11 | 115 | 67 | 297 |
-| last720d | 2024-11-01 | 3 | 1369 | 67 | 1410 | 738 | 4474 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-28 | 0 | 92 | 9 | 114 | 66 | 297 |
+| last720d | 2024-11-02 | 3 | 1366 | 64 | 1405 | 735 | 4459 |
 
 ## Release assets
 
@@ -71,6 +71,21 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [zig-bootstrap-0.15.1.tar.xz](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz) | 50.3 MiB | `other` |
 | [zig-bootstrap-0.15.1.tar.xz.minisig](https://github.com/ziglang/zig/releases/download/0.15.1/zig-bootstrap-0.15.1.tar.xz.minisig) | 322 B | `other` |
+
+## Distribution status
+
+Reported by **219** distros on [repology.org](https://repology.org/project/zig). **20** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
+| Arch | `0.17.0` | ✅ latest |
+| Homebrew | `0.17.0` | ✅ latest |
+| Fedora rawhide | `0.16.0` | ⚠️ outdated |
+| Nix unstable | `0.17.0` | ✅ latest |
+| Void | `0.13.0` | ⚠️ outdated |
+| Alpine edge | `0.16.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.15.2` | 🪦 legacy |
 
 ## Improve this data
 
@@ -81,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:37:00Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:39:31Z._
