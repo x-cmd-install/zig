@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,269 · **Forks**: 3,124 · **Open issues**: 13,515 · **Contributors**: 1,090
+- **Stars**: 43,268 · **Forks**: 3,123 · **Open issues**: 13,515 · **Contributors**: 1,090
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-29 | 0 | 89 | 9 | 99 | 48 | 297 |
-| last720d | 2024-11-03 | 3 | 1360 | 49 | 1401 | 733 | 4429 |
+| 30d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-30 | 0 | 88 | 9 | 97 | 47 | 243 |
+| last720d | 2024-11-04 | 3 | 1356 | 49 | 1398 | 731 | 4419 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Reported by **220** distros on [repology.org](https://repology.org/project/zig).
 |--------|---------|--------|
 | Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
 | Arch | `0.17.0` | ✅ latest |
-| Homebrew | `0.17.0` | ✅ latest |
+| Homebrew | `0.15.2` | 🪦 legacy |
 | Fedora rawhide | `0.16.0` | ⚠️ outdated |
 | Nix unstable | `0.17.0` | ✅ latest |
 | Void | `0.13.0` | ⚠️ outdated |
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:32:21Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:33:40Z._
