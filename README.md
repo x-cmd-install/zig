@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,268 · **Forks**: 3,123 · **Open issues**: 13,515 · **Contributors**: 1,090
+- **Stars**: 43,267 · **Forks**: 3,124 · **Open issues**: 13,515 · **Contributors**: 1,090
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10844 · **Open issues**: 2671 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10845 · **Open issues**: 2670 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-30 | 0 | 88 | 9 | 97 | 47 | 243 |
-| last720d | 2024-11-04 | 3 | 1356 | 49 | 1398 | 731 | 4419 |
+| 30d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-31 | 0 | 86 | 8 | 93 | 47 | 243 |
+| last720d | 2024-11-05 | 3 | 1352 | 49 | 1397 | 727 | 4405 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Reported by **220** distros on [repology.org](https://repology.org/project/zig).
 |--------|---------|--------|
 | Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
 | Arch | `0.17.0` | ✅ latest |
-| Homebrew | `0.15.2` | 🪦 legacy |
+| Homebrew | `0.17.0` | ✅ latest |
 | Fedora rawhide | `0.16.0` | ⚠️ outdated |
 | Nix unstable | `0.17.0` | ✅ latest |
 | Void | `0.13.0` | ⚠️ outdated |
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:33:40Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:37:27Z._
