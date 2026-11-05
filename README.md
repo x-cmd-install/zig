@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,256 · **Forks**: 3,124 · **Open issues**: 13,515 · **Contributors**: 1,090
+- **Stars**: 43,258 · **Forks**: 3,123 · **Open issues**: 13,515 · **Contributors**: 1,090
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10852 · **Open issues**: 2663 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10853 · **Open issues**: 2662 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-09 | 0 | 51 | 5 | 63 | 34 | 164 |
-| last720d | 2024-11-14 | 3 | 1329 | 49 | 1375 | 713 | 4335 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-10 | 0 | 49 | 5 | 60 | 31 | 164 |
+| last720d | 2024-11-15 | 3 | 1327 | 49 | 1374 | 713 | 4335 |
 
 ## Release assets
 
@@ -74,13 +74,13 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **222** distros on [repology.org](https://repology.org/project/zig). **4** are ✅ on the latest upstream release, **110** are ⚠️ on an older version.
+Reported by **223** distros on [repology.org](https://repology.org/project/zig). **8** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Ubuntu 26.04 LTS | `0.14.1~us1` | ⚠️ outdated |
 | Arch | `0.17.0` | ⚠️ outdated |
-| Homebrew | `0.15.2` | 🪦 legacy |
+| Homebrew | `0.17.1` | ✅ latest |
 | Fedora rawhide | `0.16.0` | ⚠️ outdated |
 | Nix unstable | `0.17.0` | ⚠️ outdated |
 | Void | `0.13.0` | ⚠️ outdated |
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:13:33Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:33:26Z._
