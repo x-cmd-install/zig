@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (4/10) — Found 10/24 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,255 · **Forks**: 3,122 · **Open issues**: 13,515 · **Contributors**: 1,090
+- **Stars**: 43,263 · **Forks**: 3,122 · **Open issues**: 13,515 · **Contributors**: 1,090
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-15 | 0 | 28 | 4 | 46 | 23 | 76 |
-| last720d | 2024-11-20 | 3 | 1307 | 49 | 1358 | 706 | 4315 |
+| 30d | 2026-10-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-16 | 0 | 26 | 4 | 44 | 20 | 76 |
+| last720d | 2024-11-21 | 3 | 1307 | 49 | 1357 | 705 | 4310 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **224** distros on [repology.org](https://repology.org/project/zig). **23** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **226** distros on [repology.org](https://repology.org/project/zig). **25** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:09:21Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:00:38Z._
