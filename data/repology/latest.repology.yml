@@ -1,39 +1,48 @@
-- repo: wikidata
-  srcname: Q104604630
-  visiblename: Zig
-  version: 0.15.1
-  origversion: null
-  status: outdated
-  summary: reference implementation of the Zig programming language
-  licenses:
-    - MIT License
-- repo: gnuguix
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.16.0
-  origversion: null
-  status: outdated
-  summary: General purpose programming language and toolchain
-- repo: homebrew
+- repo: chromebrew
   srcname: zig
   visiblename: zig
   version: 0.17.1
   origversion: null
   status: newest
   summary: Programming language designed for robustness, optimality, and clarity
-- repo: aur
-  srcname: zig-bin
-  binname: zig-bin
-  visiblename: zig-bin
-  version: 0.17.1
-  origversion: 0.17.1-1
-  status: newest
-  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
-  maintainers:
-    - env25@aur
   licenses:
     - MIT
+- repo: chromebrew
+  srcname: zig13
+  visiblename: zig13
+  version: 0.13.0
+  origversion: null
+  status: legacy
+  summary: Programming language designed for robustness, optimality, and clarity
+  licenses:
+    - MIT
+- repo: baulk
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.17.1
+  origversion: null
+  status: newest
+  summary: General-purpose programming language designed for robustness, optimality, and maintainability.
+- repo: deepin_25
+  subrepo: main
+  srcname: zig0.15
+  binnames:
+    - zig0.15
+    - zig0.15-dev
+  visiblename: zig0.15
+  version: 0.15.2~us1
+  origversion: 0.15.2~us1-0ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+- repo: homebrew
+  srcname: zig@0.14
+  visiblename: zig@0.14
+  version: 0.14.1
+  origversion: null
+  status: legacy
+  summary: Programming language designed for robustness, optimality, and clarity
 - repo: aerynos
   srcname: zig
   visiblename: zig
@@ -275,6 +284,18 @@
   licenses:
     - MIT
 - repo: aur
+  srcname: zig-bin
+  binname: zig-bin
+  visiblename: zig-bin
+  version: 0.17.1
+  origversion: 0.17.1-1
+  status: newest
+  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+  maintainers:
+    - env25@aur
+  licenses:
+    - MIT
+- repo: aur
   srcname: zig-dev-bin
   binname: zig-dev-bin
   visiblename: zig-dev-bin
@@ -312,6 +333,13 @@
     - vitaliikuzhdin@aur
   licenses:
     - MIT
+- repo: chocolatey
+  binname: zig
+  visiblename: zig (Install)
+  version: 0.17.0
+  origversion: null
+  status: outdated
+  summary: A programming language designed for robustness, optimality, and clarity.
 - repo: aur
   srcname: zig-master-bin
   binname: zig-master-bin
@@ -550,68 +578,6 @@
   summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
   licenses:
     - MIT
-- repo: baulk
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.17.1
-  origversion: null
-  status: newest
-  summary: General-purpose programming language designed for robustness, optimality, and maintainability.
-- repo: chocolatey
-  binname: zig
-  visiblename: zig (Install)
-  version: 0.17.0
-  origversion: null
-  status: outdated
-  summary: A programming language designed for robustness, optimality, and clarity.
-- repo: chromebrew
-  srcname: zig
-  visiblename: zig
-  version: 0.17.1
-  origversion: null
-  status: newest
-  summary: Programming language designed for robustness, optimality, and clarity
-  licenses:
-    - MIT
-- repo: chromebrew
-  srcname: zig13
-  visiblename: zig13
-  version: 0.13.0
-  origversion: null
-  status: legacy
-  summary: Programming language designed for robustness, optimality, and clarity
-  licenses:
-    - MIT
-- repo: deepin_25
-  subrepo: main
-  srcname: zig0.15
-  binnames:
-    - zig0.15
-    - zig0.15-dev
-  visiblename: zig0.15
-  version: 0.15.2~us1
-  origversion: 0.15.2~us1-0ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-- repo: fedora_41
-  subrepo: release
-  srcname: zig
-  binnames:
-    - zig
-    - zig-libs
-    - zig-doc
-    - zig-rpm-macros
-  visiblename: zig
-  version: 0.13.0
-  origversion: 0.13.0-2.fc41
-  status: legacy
-  summary: Programming language for maintaining robust, optimal, and reusable software
-  licenses:
-    - MIT and NCSA and LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL and ZPLv2.1
-  categories:
-    - Unspecified
 - repo: epel_9
   srcname: zig
   binnames:
@@ -765,6 +731,23 @@
   categories:
     - Unspecified
 - repo: fedora_41
+  subrepo: release
+  srcname: zig
+  binnames:
+    - zig
+    - zig-libs
+    - zig-doc
+    - zig-rpm-macros
+  visiblename: zig
+  version: 0.13.0
+  origversion: 0.13.0-2.fc41
+  status: legacy
+  summary: Programming language for maintaining robust, optimal, and reusable software
+  licenses:
+    - MIT and NCSA and LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL and ZPLv2.1
+  categories:
+    - Unspecified
+- repo: fedora_41
   subrepo: updates
   srcname: zig
   binnames:
@@ -815,6 +798,19 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Unspecified
+- repo: kaos
+  subrepo: main
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.17.1
+  origversion: 0.17.1-1
+  status: newest
+  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+  maintainers:
+    - demm@kaosx.us
+  licenses:
+    - MIT
 - repo: fedora_43
   subrepo: release
   srcname: zig
@@ -936,20 +932,6 @@
     - bsd@orsolic.org
   categories:
     - lang
-- repo: liguros_develop
-  srcname: dev-lang/zig
-  visiblename: dev-lang/zig
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: A robust, optimal, and maintainable programming language
-  maintainers:
-    - bratishkaerik@landless-city.net
-    - proxy-maint@gentoo.org
-  licenses:
-    - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
-  categories:
-    - dev-lang
 - repo: gentoo
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -964,6 +946,13 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
+- repo: homebrew
+  srcname: zig@0.15
+  visiblename: zig@0.15
+  version: 0.15.2
+  origversion: null
+  status: legacy
+  summary: Programming language designed for robustness, optimality, and clarity
 - repo: gentoo
   srcname: dev-lang/zig
   visiblename: dev-lang/zig
@@ -1006,6 +995,26 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
+- repo: kiss_community
+  subrepo: community
+  srcname: zig-bin
+  visiblename: zig-bin
+  version: 0.16.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - prathamin@proton.me
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.17.1
+  origversion: 0.17.1-1
+  status: newest
+  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1020,30 +1029,6 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
-- repo: gnuguix
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.15.2
-  origversion: null
-  status: legacy
-  summary: General purpose programming language and toolchain
-- repo: gnuguix
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.13.0
-  origversion: null
-  status: legacy
-  summary: General purpose programming language and toolchain
-- repo: gnuguix
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.11.0
-  origversion: null
-  status: legacy
-  summary: General purpose programming language and toolchain
 - repo: gentoo
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1072,6 +1057,13 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
+- repo: homebrew
+  srcname: zig@0.16
+  visiblename: zig@0.16
+  version: 0.16.0
+  origversion: null
+  status: legacy
+  summary: Programming language designed for robustness, optimality, and clarity
 - repo: gentoo
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1092,20 +1084,6 @@
   version: 0.15.1
   origversion: null
   status: legacy
-  summary: A robust, optimal, and maintainable programming language
-  maintainers:
-    - bratishkaerik@landless-city.net
-    - proxy-maint@gentoo.org
-  licenses:
-    - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/zig
-  visiblename: dev-lang/zig
-  version: 0.17.1
-  origversion: null
-  status: newest
   summary: A robust, optimal, and maintainable programming language
   maintainers:
     - bratishkaerik@landless-city.net
@@ -1160,7 +1138,31 @@
   srcname: zig
   binname: zig
   visiblename: zig
+  version: 0.16.0
+  origversion: null
+  status: outdated
+  summary: General purpose programming language and toolchain
+- repo: gnuguix
+  srcname: zig
+  binname: zig
+  visiblename: zig
   version: 0.12.1
+  origversion: null
+  status: legacy
+  summary: General purpose programming language and toolchain
+- repo: gnuguix
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.15.2
+  origversion: null
+  status: legacy
+  summary: General purpose programming language and toolchain
+- repo: gnuguix
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.13.0
   origversion: null
   status: legacy
   summary: General purpose programming language and toolchain
@@ -1172,49 +1174,21 @@
   origversion: null
   status: legacy
   summary: General purpose programming language and toolchain
-- repo: homebrew
-  srcname: zig@0.14
-  visiblename: zig@0.14
-  version: 0.14.1
-  origversion: null
-  status: legacy
-  summary: Programming language designed for robustness, optimality, and clarity
-- repo: homebrew
-  srcname: zig@0.15
-  visiblename: zig@0.15
-  version: 0.15.2
-  origversion: null
-  status: legacy
-  summary: Programming language designed for robustness, optimality, and clarity
-- repo: homebrew
-  srcname: zig@0.16
-  visiblename: zig@0.16
-  version: 0.16.0
-  origversion: null
-  status: legacy
-  summary: Programming language designed for robustness, optimality, and clarity
-- repo: kaos
-  subrepo: main
+- repo: gnuguix
   srcname: zig
   binname: zig
   visiblename: zig
-  version: 0.17.1
-  origversion: 0.17.1-1
-  status: newest
-  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
-  maintainers:
-    - demm@kaosx.us
-  licenses:
-    - MIT
-- repo: kiss_community
-  subrepo: community
-  srcname: zig-bin
-  visiblename: zig-bin
-  version: 0.16.0
+  version: 0.11.0
   origversion: null
-  status: outdated
-  maintainers:
-    - prathamin@proton.me
+  status: legacy
+  summary: General purpose programming language and toolchain
+- repo: homebrew
+  srcname: zig
+  visiblename: zig
+  version: 0.17.1
+  origversion: null
+  status: newest
+  summary: Programming language designed for robustness, optimality, and clarity
 - repo: liguros_stable
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1299,6 +1273,20 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
+- repo: macports
+  srcname: lang/zig
+  binname: zig
+  visiblename: zig
+  version: "0.17"
+  origversion: null
+  status: outdated
+  summary: Zig programming language
+  maintainers:
+    - nomaintainer@macports.org
+  licenses:
+    - MIT
+  categories:
+    - lang
 - repo: liguros_stable
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1374,7 +1362,7 @@
   visiblename: dev-lang/zig-bin
   version: 0.16.0
   origversion: null
-  status: outdated
+  status: legacy
   summary: A robust, optimal, and maintainable programming language
   maintainers:
     - bratishkaerik@landless-city.net
@@ -1397,6 +1385,20 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
+- repo: macports
+  srcname: lang/zig-0.15
+  binname: zig-0.15
+  visiblename: zig-0.15
+  version: 0.15.2
+  origversion: null
+  status: legacy
+  summary: Zig programming language 0.15
+  maintainers:
+    - nomaintainer@macports.org
+  licenses:
+    - MIT
+  categories:
+    - lang
 - repo: liguros_develop
   srcname: dev-lang/zig-bin
   visiblename: dev-lang/zig-bin
@@ -1453,34 +1455,48 @@
     - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
     - dev-lang
-- repo: macports
-  srcname: lang/zig
-  binname: zig
-  visiblename: zig
-  version: "0.17"
+- repo: liguros_develop
+  srcname: dev-lang/zig-bin
+  visiblename: dev-lang/zig-bin
+  version: 0.17.1
   origversion: null
-  status: outdated
-  summary: Zig programming language
+  status: newest
+  summary: A robust, optimal, and maintainable programming language
   maintainers:
-    - nomaintainer@macports.org
+    - bratishkaerik@landless-city.net
+    - proxy-maint@gentoo.org
   licenses:
-    - MIT
+    - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
-    - lang
-- repo: macports
-  srcname: lang/zig-0.15
-  binname: zig-0.15
-  visiblename: zig-0.15
-  version: 0.15.2
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/zig
+  visiblename: dev-lang/zig
+  version: 0.17.1
   origversion: null
-  status: legacy
-  summary: Zig programming language 0.15
+  status: newest
+  summary: A robust, optimal, and maintainable programming language
   maintainers:
-    - nomaintainer@macports.org
+    - bratishkaerik@landless-city.net
+    - proxy-maint@gentoo.org
   licenses:
-    - MIT
+    - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
   categories:
-    - lang
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/zig
+  visiblename: dev-lang/zig
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: A robust, optimal, and maintainable programming language
+  maintainers:
+    - bratishkaerik@landless-city.net
+    - proxy-maint@gentoo.org
+  licenses:
+    - MIT Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT ) || ( Apache-2.0-with-LLVM-exceptions Apache-2.0 MIT BSD-2 ) public-domain BSD-2 ZPL ISC HPND BSD inner-net LGPL-2.1+
+  categories:
+    - dev-lang
 - repo: macports
   srcname: lang/zig-0.16
   binname: zig-0.16
@@ -1517,17 +1533,6 @@
   version: 0.16.0
   origversion: 0.16.0-1
   status: outdated
-  summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.17.1
-  origversion: 0.17.1-1
-  status: newest
   summary: a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
   licenses:
     - MIT
@@ -1773,24 +1778,6 @@
     - tristan.ross@midstall.com
   licenses:
     - MIT
-- repo: openmandriva_rolling
-  subrepo: main/release
-  srcname: zig
-  binnames:
-    - zig
-    - zig-libs
-    - zig-rpm-macros
-  visiblename: zig
-  version: 0.15.1~20251020
-  origversion: 0.15.1~20251020-1
-  status: outdated
-  summary: Compiler for the Zig language
-  maintainers:
-    - azure.grade9592@eagereverest.com
-  licenses:
-    - MIT
-  categories:
-    - Development/Languages/Other
 - repo: nix_stable_26_05
   srcname: zig_0_15
   visiblename: zig
@@ -1928,6 +1915,24 @@
   summary: Compiler for the Zig language
   maintainers:
     - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/Languages/Other
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: zig
+  binnames:
+    - zig
+    - zig-libs
+    - zig-rpm-macros
+  visiblename: zig
+  version: 0.15.1~20251020
+  origversion: 0.15.1~20251020-1
+  status: outdated
+  summary: Compiler for the Zig language
+  maintainers:
+    - azure.grade9592@eagereverest.com
   licenses:
     - MIT
   categories:
@@ -2263,7 +2268,7 @@
   subrepo: versions
   binname: zig-dev
   visiblename: zig-dev
-  version: 0.18.0-dev.954
+  version: 0.18.0-dev.1005
   origversion: null
   status: untrusted
   licenses:
@@ -2372,9 +2377,9 @@
   srcname: zig
   binname: zig
   visiblename: zig
-  version: 0.17.0
+  version: 0.17.1
   origversion: null
-  status: outdated
+  status: newest
   summary: General-purpose programming language and toolchain
   maintainers:
     - termux@github
@@ -2434,19 +2439,6 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Development/Debug
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: zig
-  binname: zig
-  visiblename: zig
-  version: 0.13.0
-  origversion: 0.13.0_1
-  status: outdated
-  summary: Programming language designed for robustness, optimality, and clarity
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - MIT
 - repo: terra_rawhide
   srcname: zig-master
   binname: zig-master-debugsource
@@ -2475,6 +2467,20 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Development/Debug
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: zig0.14
+  binnames:
+    - zig0.14
+    - zig0.14-dev
+  visiblename: zig0.14
+  version: 0.14.1~us1
+  origversion: 0.14.1~us1-0ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/devel
 - repo: terra_rawhide
   srcname: zig-master
   binname: zig-master-doc
@@ -2643,15 +2649,6 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Development/Debug
-- repo: xrepo
-  srcname: zig
-  visiblename: zig
-  version: 0.14.0
-  origversion: null
-  status: outdated
-  summary: Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
-  licenses:
-    - MIT
 - repo: terra_rawhide
   srcname: zig0.15
   binname: zig0.15-debuginfo
@@ -2680,16 +2677,6 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Development/Debug
-- repo: vylen
-  subrepo: extra
-  srcname: zig
-  visiblename: zig
-  version: 0.17.1
-  origversion: 0.17.1-1
-  status: newest
-  summary: A general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
-  maintainers:
-    - wonkru-dev@proton.me
 - repo: terra_rawhide
   srcname: zig0.15
   binname: zig0.15-debugsource
@@ -2732,20 +2719,6 @@
     - MIT AND NCSA AND LGPL-2.1-or-later AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND GPL-2.0-or-later AND GPL-2.0-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND Inner-Net-2.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND GFDL-1.1-or-later AND ZPL-2.1
   categories:
     - Unspecified
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: zig0.14
-  binnames:
-    - zig0.14
-    - zig0.14-dev
-  visiblename: zig0.14
-  version: 0.14.1~us1
-  origversion: 0.14.1~us1-0ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/devel
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: zig0.14
@@ -2858,6 +2831,38 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/devel
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: zig
+  binname: zig
+  visiblename: zig
+  version: 0.13.0
+  origversion: 0.13.0_1
+  status: outdated
+  summary: Programming language designed for robustness, optimality, and clarity
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - MIT
+- repo: vylen
+  subrepo: extra
+  srcname: zig
+  visiblename: zig
+  version: 0.17.1
+  origversion: 0.17.1-1
+  status: newest
+  summary: A general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+  maintainers:
+    - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q104604630
+  visiblename: Zig
+  version: 0.15.1
+  origversion: null
+  status: outdated
+  summary: reference implementation of the Zig programming language
+  licenses:
+    - MIT License
 - repo: xrepo
   srcname: zig
   visiblename: zig
@@ -2891,6 +2896,15 @@
   version: 0.13.0
   origversion: null
   status: legacy
+  summary: Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
+  licenses:
+    - MIT
+- repo: xrepo
+  srcname: zig
+  visiblename: zig
+  version: 0.14.0
+  origversion: null
+  status: outdated
   summary: Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
   licenses:
     - MIT
