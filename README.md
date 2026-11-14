@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,281 · **Forks**: 3,121 · **Open issues**: 13,515 · **Contributors**: 1,088
+- **Stars**: 43,263 · **Forks**: 3,114 · **Open issues**: 13,514 · **Contributors**: 1,088
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10856 · **Open issues**: 2659 · **Commits**: 36058
+- **Releases**: 21 · **Merged PRs**: 9537 · **Open PRs**: 50 · **Closed issues**: 10855 · **Open issues**: 2659 · **Commits**: 36058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-18 | 0 | 19 | 4 | 33 | 17 | 76 |
-| last720d | 2024-11-23 | 3 | 1304 | 49 | 1351 | 703 | 4305 |
+| 30d | 2026-10-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-19 | 0 | 18 | 4 | 27 | 13 | 76 |
+| last720d | 2024-11-24 | 3 | 1301 | 49 | 1347 | 701 | 4295 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **227** distros on [repology.org](https://repology.org/project/zig). **28** are ✅ on the latest upstream release, **90** are ⚠️ on an older version.
+Reported by **227** distros on [repology.org](https://repology.org/project/zig). **30** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for zig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:31:30Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:15:32Z._
